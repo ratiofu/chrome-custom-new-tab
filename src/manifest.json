@@ -2,10 +2,11 @@
   "manifest_version": 2,
 
   "name": "My Custom New Tab Home Page",
+  "short_name": "My Tab Home",
   "description": "Set the New Tab page to your preferred website/URL",
-  "version": "0.1",
+  "version": "0.1.1",
   "icons": {
-    "66": "icon.png"
+    "128": "icon.png"
   },
   "author": "Thomas Jung (ratiofu)",
   "homepage_url": "https://github.com/ratiofu/chrome-custom-new-tab",

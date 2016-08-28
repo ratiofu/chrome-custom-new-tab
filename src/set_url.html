@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+  <head>
+    <title>Forwarding your custom new tab home page ...</title>
+    <style>
+      body {
+        min-width: 350px;
+      }
+      * {
+        font-size: inherit;
+        box-sizing: border-box
+      }
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+      }
+      body {
+        padding: 1em;
+      }
+      input {
+        margin: 0.5em 0;
+        display: block;
+        border: 1px solid lightgray;
+        border-radius: 0.25em;
+        padding: 0.5em 0.6em;
+      }
+      .small {
+        font-size: 0.8em;
+      }
+    </style>
+    <script src="set_url.js"></script>
+  </head>
+
+  <body>
+    <form id="configureForm" style="display: none;">
+      <label for="newTabUrl">Configure the website (URL) for your New Tab Page:
+        <input id="newTabUrl" type="text" style="width: 100%;"
+          placeholder="https://www.helpwith.co" />
+      </label>
+      <p class="small">Tip: Just copy and paste the URL from another tab.</p>
+      <input type="submit" value="Save" id="save" disabled="disabled" />
+    </form>
+  </body>
+
+</html>
+

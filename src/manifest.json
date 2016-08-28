@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "My Custom New Tab Home Page",
+  "description": "Set the New Tab page to your preferred website/URL",
+  "version": "0.1",
+  "icons": {
+    "66": "icon.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "set_url.html?configure=true"
+  },
+
+  "chrome_url_overrides" : {
+    "newtab": "set_url.html"
+  },
+
+  "permissions": [
+    "activeTab"
+  ]
+
+}
